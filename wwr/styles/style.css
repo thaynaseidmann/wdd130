@@ -1,104 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Nixie+One&display=swap');
 
+body {
+    background-color: #F0E8F3;
+    font-family: 'Nixie One', Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 0;
+    
+}
+h2 {
+    margin: 0;
+}
 #content {
     max-width: 1600px;
     margin: 0 auto;
 }
+
 #background {
     height: 725px;
     background-color: #d9c2a3;
 }
-body {
-    max-width: 1600px;
-    margin: 0 auto;
-    background-color:#F0E8F3;
-}
+
 header {
-    background-color:#58A674;
+    background-color: #58A674;
 }
+
 nav a {
     margin: auto;
     text-align: center;
     background-color: #58A674;
-    color:white;
+    color: white;
     text-decoration: none;
+    padding: 35px;
 }
+
 nav a:hover {
     background-color: white;
     color: #d9c2a3;
 }
-#hero-msg h1, #hero-msg h4{
-    text-align:center;
+
+#hero-msg h1, #hero-msg h4 {
+    text-align: center;
 }
-#hero-img{
+
+#hero-img {
     width: 100%;
 }
+
 .button-box {
-    text-align:center;
+    text-align: center;
 }
-main section{
-    text-align:center;
+
+main section {
+    text-align: center;
 }
-.home-title{
+
+.home-title {
     background-color: #58A674;
-    color:white;
+    color: white;
+    font-family: 'Libre Baskerville', Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    background-color: #ED6451;
+    font-family: 'Nixie One', Arial, Helvetica, sans-serif;
+    margin-top: 10px;
 }
+
+
 h4 {
     background-color: #ED6451;
-    color:white;
+    color: white;
 }
+
 .book, .join {
     background-color: #58A674;
-    color:white;
+    color: white;
     text-decoration: none;
-} 
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top:  50px;
+    border-radius: 5px;
+}
+
 .book:hover, .join:hover {
     background-color: #06b2e4;
-    color:black
+    color: black;
 }
-#background{
+
+#background {
     height: 725px;
     background-color: black;
 }
+
 .msg {
     background-color: #ED6451;
     color: white;
+    line-height: 1.5em;
+    padding: 35px;
 }
+
 .msg h2 {
     background-color: #ED6451;
     color: white;
+    font-family: 'Libre Baskerville', Arial, Helvetica, sans-serif;
+    margin: 0;
 }
+
+
 .msg p {
     background-color: #ED6451;
     color: white;
+    font-size: .8em;
+    padding: 15px;
 }
+
 footer {
     background-color: #58A674;
     color: white;
+    padding: 25px 50px;
+    margin-top:  200px;
 }
+
 footer a {
     background-color: #58A674;
     color: white;
-    
     margin-top: auto;
     text-decoration: none;
 }
+footer .social img {
+    padding-top: 15px;
+}
+
 footer a:hover {
     background-color: #06b2e4;
-    color: white;    
+    color: white;
     margin-top: auto;
 }
+
 footer p {
     font-size: 1.2em;
-}  
+}
+
 footer p a:hover {
     text-decoration: underline;
 }
-.home-grid{
+
+.home-grid {
     background-color: #F0E8F3;
 }
+
 .icon {
     width: 80px;
+    padding: 10px;
 }
-.logo{
+
+.logo {
     width: 80px;
+    padding: 15px;
+    margin: 17px;
+    
 }
+#logo_link {
+    padding-top: 5px;
+}
+
+.rivers-card, .camping-card, .rapids-card{
+    margin: 200px 0;
+}
+.card-img {
+    border: 10px solid #06b2e4;
+}
+main section img {
+    box-sizing: border-box;
+}
+  
