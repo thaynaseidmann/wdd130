@@ -1,0 +1,32 @@
+body {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 4em;
+    font-size: 18px;
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+h1{
+    text-align:center;
+}
+img{
+    display: center;
+    margin: auto;
+}
+p{
+    text-align: center;
+    background-color: ;
+}
+footer{
+    grid-column: 3/1;
+    grid-row: 2/1;
+    margin: auto;
+    background-color: blue;
+}
+footer{
+    grid-template-columns: 150px auto;
+    grid-template-rows: repeat(3,1em);
+}
+
