@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Whitewater Rafting Vacations | Dry Oar Boating | Home</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <style>
+        
+        #feedback {
+            background-color: antiquewhite;
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            padding: .5em;
+            display: none;      
+        }
+        .move-down {
+            margin-top: 3em;
+        }
+    </style>
+</head>
+<body>
+    <div id="content"> 
+        <header>
+            <a id="logo_link" href="index.html">
+                <img class="logo" src="images/logo.png" alt="Dry Oar Logo">
+            </a>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="rivers.html">Rivers </a>
+                <a href="site-plan-rafting.html">Site Plan</a>
+                <a href="contactus.html">Contact Us</a>
+            </nav>
+        </header>
+
+        <main class="contact-us">
+            <form>
+                <input type="text" name="user_name" placeholder="Your Name">
+                <textarea name="message" placeholder="Your Message"></textarea>
+                <button type="submit">Submit</button>
+            </form>
+            <div id="feedback"></div>
+        </main>
+    
+        <footer>
+            <p>Dry Oar &copy; 20XX - Thayna Seidmann</p>
+            <nav>
+                <a href="site-plan-rafting.html">Site Plan</a>
+                <a href="contactus.html">Contact Us</a>
+            </nav>
+            <div class="social">
+                <a href="https://facebook.com" target="_blank">
+                    <img src="images/facebook.png" alt="fb icon">
+                </a>
+                <a href="https://twitter.com" target="_blank">
+                    <img src="images/twitter.png" alt="twitter icon">
+                </a>
+                <a href="https://instagram.com" target="_blank">
+                    <img src="images/instagram.png" alt="instagram icon">
+                </a>
+            </div>
+        </footer>
+    </div>
+
+    <script>
+        const feedbackElement = document.getElementById('feedback');
+        const formElement = document.querySelector('form');
+
+        formElement.addEventListener('submit', function(e) {
+            e.preventDefault();
+            feedbackElement.innerHTML = 'Hello '+ formElement.user_name.value +'! Thank you for your message. We will get back with you as soon as possible!';
+            feedbackElement.style.display = "block";
+            document.body.classList.toggle('move-down');
+        });
+    </script>
+</body>
+</html>
